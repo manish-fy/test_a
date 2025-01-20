@@ -1,0 +1,77 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  header nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  header nav ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  section {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  #services .service-cards {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  #services .card {
+    background: #f4f4f4;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    width: 200px;
+  }
+  
+  #gallery .gallery-images {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  #gallery .gallery-images img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border: 1px solid #ddd;
+  }
+  
+  footer {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+  }
+  
+  footer .social-links a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+  }
